@@ -1,0 +1,27 @@
+1 IBRAHIM SOGUK PROF CYBER,MATH,NET
+2 SINAN AK PROF AI,PROG,OS
+3 ERHAN APO DOCENT AI,PROG,MATH,ALG
+4 ALP ARSLAN DR OS,ARCH,MATH
+5 JOHN BIDDLE PROF MATERIAL,MACH
+6 JEF HANSON PROF PHY,MATH
+7 ALI ARSLAN PROF MACH,PROG
+if(l[i].proff[0]==c[j].field &&c[j].isTaken==0 &&l[i]course_counter<=3 &&temp1==0){
+				temp1++;
+				l[i].assignCourse(c[j]);
+				
+			}
+			else if(l[i].proff[1]==c[j].field && c[j].isTaken==0 &&l[i]course_counter<=3 &&temp2==0){
+				temp2++;
+				l[i].assignCourse(c[j]);
+				
+			}
+			else if(l[i].proff[2]==c[j].field && c[j].isTaken==0 &&l[i]course_counter<=3 &&temp3==0){
+				temp3++;
+				l[i].assignCourse(c[j]);
+				
+			}
+			else if(l[i].proff[3]==c[j].field && c[j].isTaken==0 &&l[i]course_counter<=3 &&temp4==0){
+				temp4++;
+				l[i].assignCourse(c[j]);
+				
+			}

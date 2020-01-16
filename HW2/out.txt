@@ -1,0 +1,6 @@
+alp emir:
+(4)OOP 4
+(5)SYSTEM 4
+(6)FLUXMECHANICS 4
+(7)STATICS 4
+Remaining credit:8
